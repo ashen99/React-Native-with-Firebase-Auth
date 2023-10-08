@@ -5,8 +5,8 @@
    OPEN_WEATHER_API=
 3. To login to the application use the following credentials.
    email : test@gmail.com
-   password: 123456  
-4.or you can login user facebook account.
+   password: 123456 <br>
+4.or you can login user facebook account.<br>
 5.finaly run `npm i` to add necessary packages
 
 ## screenshots of the applciation 
