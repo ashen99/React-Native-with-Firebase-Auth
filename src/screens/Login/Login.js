@@ -65,15 +65,13 @@ const Login = () => {
         <TextInput
           placeholder="Email"
           style={styles.input}
-          showSoftInputOnFocus={false}
-          keyboardType="numeric"
+          keyboardType="default"
           value={email}
           onChangeText={text => setEmail(text)}
         />
         <TextInput
           placeholder="Passwords"
           style={styles.input}
-          showSoftInputOnFocus={false}
           keyboardType="numeric"
           value={password}
           secureTextEntry
