@@ -10,6 +10,7 @@ import React, {useState, useEffect} from 'react';
 import {useNavigation} from '@react-navigation/native';
 import auth from '@react-native-firebase/auth';
 import { LoginManager, AccessToken } from 'react-native-fbsdk-next';
+import { validateCredentials } from '../../helper/checkValidations';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -27,7 +28,9 @@ const Login = () => {
   }, []);
 
   const userLogin = async () => {
-    await auth()
+    const checkValidated = checkValidation(email, password);
+    if(checkValidated){
+      await auth()
       .signInWithEmailAndPassword(email, password)
       .then(userCredentials => {
         const user = userCredentials.user;
@@ -35,6 +38,10 @@ const Login = () => {
         navigation.navigate('Home');
       })
       .catch(error => alert(error));
+    } else {
+      alert(error)
+    }
+    
   };
 
   async function onFacebookButtonPress() {
