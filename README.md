@@ -9,7 +9,7 @@
 4.or you can login user facebook account.<br>
 5.finaly run `npm i` to add necessary packages
 
-## screenshots of the applciation 
+## screenshots of the application 
 [![Screenshot-1696806847.png](https://i.postimg.cc/T3SqzSFj/Screenshot-1696806847.png)](https://postimg.cc/Hrwy5Spj)
 [![Screenshot-1696805654.png](https://i.postimg.cc/tTGdT6XY/Screenshot-1696805654.png)](https://postimg.cc/B8NP7XP0)
 [![resturants.png](https://i.postimg.cc/GtckP1TR/resturants.png)](https://postimg.cc/0MBMxFCX)
