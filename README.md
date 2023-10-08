@@ -6,7 +6,8 @@
 3. To login to the application use the following credentials.
    email : test@gmail.com
    password: 123456
-4.finaly run `npm i` to add necessary packages
+4.or you can login user facebook account.
+5.finaly run `npm i` to add necessary packages
 
 ## screenshots of the applciation 
 [![Screenshot-1696806847.png](https://i.postimg.cc/T3SqzSFj/Screenshot-1696806847.png)](https://postimg.cc/Hrwy5Spj)
