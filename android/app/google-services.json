@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "603801757827",
+    "project_id": "rnfirebaseauth-77844",
+    "storage_bucket": "rnfirebaseauth-77844.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603801757827:android:ea85d4e517947d852793b6",
+        "android_client_info": {
+          "package_name": "com.empitemobileapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvnYnsEfjNL3xUh_Fo5vpWLZ-q9cESAQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
